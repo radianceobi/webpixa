@@ -42,6 +42,7 @@ nav button{
 	outline: none;
 	border: 2px solid #3a6cab;
 	box-shadow: none;
+	transition: background-color 1.5s ease-out;
 }
 nav button:hover{
 	background-color: #8da5ae;
@@ -92,6 +93,7 @@ button{
 	border: 0.5px solid white;
 	border-radius: 20px;
 	margin-top: 20px;
+	transition: background-color 1.5s ease-out;
 }
 .about button:hover{
 	background-color: white;
@@ -126,6 +128,7 @@ button{
 	border-radius: 10px;
 	flex-basis: 30%;
 	cursor: pointer;
+	transition: box-shadow 1s;
 }
 .box1:hover{
 	box-shadow: 10px 10px 50px #d6d6d6;
@@ -163,6 +166,7 @@ button{
 	border: 0.5px solid white;
 	border-radius: 20px;
 	margin-top: 20px;
+	transition: background-color 1.5s ease-out;
 }
 .second-lower button:hover{
 	background-color: white;
@@ -222,6 +226,8 @@ footer p{
 	border-bottom-left-radius: 25px;
 	cursor: pointer;
 	background-color: #6d3492;
+	transition: background-color 0.5s ease-out;
+	transition: color 1.5s ease-out;
 }
 .social .wrap:hover{
 	background-color: #cbd6e0;
